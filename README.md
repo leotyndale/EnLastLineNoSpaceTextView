@@ -1,6 +1,6 @@
 ![Logo](https://raw.githubusercontent.com/leotyndale/EnFloatingView/master/preview/logo.png)
 
-# EnLastLineNoSpaceTextView
+EnLastLineNoSpaceTextView
 ==========================
 [![Muxuan](https://img.shields.io/badge/Powered_by-Muxuan-green.svg?style=flat)](http://www.imuxuan.com/)
 
