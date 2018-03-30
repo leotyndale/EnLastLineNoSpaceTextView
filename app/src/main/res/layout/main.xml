@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Normal TextView Multiple Lines:"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFB6C1"
+        android:lineSpacingExtra="5dp"
+        android:maxLines="2"
+        android:text="测试正常的多行TextView，测试正常的多行TextView，测试正常的多行TextView，测试正常的多行TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="LastLineNoSpaceTextView Multiple Lines: "
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <com.imuxuan.en.LastLineNoSpaceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#1E90FF"
+        android:ellipsize="end"
+        android:lineSpacingExtra="5dp"
+        android:maxLines="2"
+        android:text="测试兼容的多行TextView，测试兼容的多行TextView，测试兼容的多行TextView，测试兼容的多行TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+</LinearLayout>
