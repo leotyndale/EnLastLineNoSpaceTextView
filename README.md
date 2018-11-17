@@ -4,6 +4,8 @@ EnLastLineNoSpaceTextView
 ==========================
 [![Muxuan](https://img.shields.io/badge/Powered_by-Muxuan-green.svg?style=flat)](http://www.imuxuan.com/)
 
+[English](/README_EN.md)
+
 去除TextView设置lineSpacingExtra后，最后一行多出的空白
 
 ### 发生版本
